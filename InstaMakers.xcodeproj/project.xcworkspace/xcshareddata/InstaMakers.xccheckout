@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9A340211-D010-4937-87FD-60D821D263F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InstaMakers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6EC1E942AD8FD25A70AD4BABCAC416F7C5933D6F</key>
+		<string>https://github.com/saucedoa7/InstaMakers.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InstaMakers.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6EC1E942AD8FD25A70AD4BABCAC416F7C5933D6F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/saucedoa7/InstaMakers.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6EC1E942AD8FD25A70AD4BABCAC416F7C5933D6F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6EC1E942AD8FD25A70AD4BABCAC416F7C5933D6F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InstaMakers</string>
+		</dict>
+	</array>
+</dict>
+</plist>
