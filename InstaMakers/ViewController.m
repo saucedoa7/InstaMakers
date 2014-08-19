@@ -17,7 +17,11 @@
 #define Password @"password"
 #define FirstName @"firstname"
 #define LastName @"lastname"
-#define ProfilePic   @"profilepicture"
+#define ProfilePic @"profilepicture"
+
+#define ColorBostonBlue [UIColor colorWithRed:0.29 green:0.63 blue:0.69 alpha:1]
+#define ColorMalibu [UIColor colorWithRed:0.36 green:0.78 blue:0.84 alpha:1]
+#define ColorTealBlue [UIColor colorWithRed:0.24 green:0.47 blue:0.55 alpha:1]
 
 @interface ViewController () <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *firstNameTextField;
@@ -38,12 +42,16 @@
     [super viewDidLoad];
     [self refreshDisplay];
     self.isSignIn = YES;
+    [self.passwordTextField setSecureTextEntry:YES];
 }
 
 - (IBAction)onSignUpButtonPressed:(UIButton *)sender {
     if ([sender.titleLabel.text isEqualToString:@"Sign-Up"]) {
+
+        sender.titleLabel.textColor = ColorTealBlue;
+
         self.isSignIn = NO;
-        [sender setTitle:@"Sign-In" forState:UIControlStateNormal];
+        [sender setTitle:@"Cancel" forState:UIControlStateNormal];
         self.photoButton.hidden = NO;
         [UIView animateWithDuration:1 animations:^{
             self.logInLabel.transform = CGAffineTransformMakeTranslation(0, -60 );
@@ -74,6 +82,10 @@
             self.photoButton.hidden = YES;
             self.firstNameTextField.hidden = YES;
             self.lastNameTextField.hidden = YES;
+            self.firstNameTextField.text = @"";
+            self.lastNameTextField.text = @"";
+            self.usernameTextField.text = @"";
+            self.passwordTextField.text = @"";
         }];
     }
 }
@@ -115,7 +127,7 @@
                 [self performSegueWithIdentifier:@"initialSegue" sender:self];
             }
         } else {
-            NSString* message = @"You are missing information";
+            NSString* message = @"All Fields are Required";
             if ([self.firstNameTextField.text isEqualToString:@""] || [self.firstNameTextField.text isEqualToString:@"First Name"]) {
                 [message stringByAppendingString:@"Your first name\n"];
             }

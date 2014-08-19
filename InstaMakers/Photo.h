@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Photo : NSData
+
+
 @property NSData* picture;
 @property int count;
 @property NSMutableArray* comments;
