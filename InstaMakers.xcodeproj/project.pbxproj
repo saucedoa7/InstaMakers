@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0CFAF119A3AF6A00D7DB25 /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CFAF019A3AF6A00D7DB25 /* NewsFeedViewController.m */; };
+		0B0CFAF419A3B11800D7DB25 /* NewsFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CFAF319A3B11800D7DB25 /* NewsFeedTableViewCell.m */; };
+		0B0CFAFA19A3B32300D7DB25 /* LikerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CFAF919A3B32300D7DB25 /* LikerLabel.m */; };
+		0B0CFAFD19A3B6AD00D7DB25 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CFAFC19A3B6AD00D7DB25 /* Photo.m */; };
 		0B5CADBE19A39D92008062F1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5CADBD19A39D92008062F1 /* Parse.framework */; };
 		0B5CADC119A3A22B008062F1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CADC019A3A22B008062F1 /* Person.m */; };
 		50FED44319A2AEB8005F683E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FED44219A2AEB8005F683E /* Foundation.framework */; };
@@ -47,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0CFAEF19A3AF6A00D7DB25 /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
+		0B0CFAF019A3AF6A00D7DB25 /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
+		0B0CFAF219A3B11800D7DB25 /* NewsFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedTableViewCell.h; sourceTree = "<group>"; };
+		0B0CFAF319A3B11800D7DB25 /* NewsFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedTableViewCell.m; sourceTree = "<group>"; };
+		0B0CFAF819A3B32200D7DB25 /* LikerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LikerLabel.h; path = ../LikerLabel.h; sourceTree = "<group>"; };
+		0B0CFAF919A3B32300D7DB25 /* LikerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LikerLabel.m; path = ../LikerLabel.m; sourceTree = "<group>"; };
+		0B0CFAFB19A3B6AD00D7DB25 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		0B0CFAFC19A3B6AD00D7DB25 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		0B5CADBD19A39D92008062F1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		0B5CADBF19A3A22B008062F1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0B5CADC019A3A22B008062F1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
@@ -165,8 +177,16 @@
 				50FED45119A2AEB8005F683E /* AppDelegate.h */,
 				50FED45219A2AEB8005F683E /* AppDelegate.m */,
 				50FED45419A2AEB8005F683E /* Main.storyboard */,
+				0B0CFAF219A3B11800D7DB25 /* NewsFeedTableViewCell.h */,
+				0B0CFAF319A3B11800D7DB25 /* NewsFeedTableViewCell.m */,
+				0B0CFAF819A3B32200D7DB25 /* LikerLabel.h */,
+				0B0CFAF919A3B32300D7DB25 /* LikerLabel.m */,
+				0B0CFAEF19A3AF6A00D7DB25 /* NewsFeedViewController.h */,
+				0B0CFAF019A3AF6A00D7DB25 /* NewsFeedViewController.m */,
 				50FED45719A2AEB8005F683E /* ViewController.h */,
 				50FED45819A2AEB8005F683E /* ViewController.m */,
+				0B0CFAFB19A3B6AD00D7DB25 /* Photo.h */,
+				0B0CFAFC19A3B6AD00D7DB25 /* Photo.m */,
 				0B5CADBF19A3A22B008062F1 /* Person.h */,
 				0B5CADC019A3A22B008062F1 /* Person.m */,
 				50FED45A19A2AEB8005F683E /* Images.xcassets */,
@@ -302,9 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0CFAFA19A3B32300D7DB25 /* LikerLabel.m in Sources */,
 				50FED45919A2AEB8005F683E /* ViewController.m in Sources */,
 				50FED45319A2AEB8005F683E /* AppDelegate.m in Sources */,
 				0B5CADC119A3A22B008062F1 /* Person.m in Sources */,
+				0B0CFAFD19A3B6AD00D7DB25 /* Photo.m in Sources */,
+				0B0CFAF119A3AF6A00D7DB25 /* NewsFeedViewController.m in Sources */,
+				0B0CFAF419A3B11800D7DB25 /* NewsFeedTableViewCell.m in Sources */,
 				50FED44F19A2AEB8005F683E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

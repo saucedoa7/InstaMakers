@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Photo.h"
 
 @interface Person : NSObject
 @property NSString* firstName;
 @property NSString* lastName;
 @property NSString* userName;
 @property NSString* password;
+@property Photo* profilePicture;
+@property NSMutableArray* arrayOfPhotos;
 @end
